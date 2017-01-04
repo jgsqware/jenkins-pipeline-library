@@ -2,8 +2,8 @@
 @NonCPS
 def images() {
     return [
-        maven: 's00vl9961140.be.net.intra:8183/cip/maven:3.3.9-jdk-8-alpine',
-        sonar: 's00vl9961140.be.net.intra:8183/sonar-runner:2.4'
+        maven: 'maven:3.3.9-jdk-8-alpine',
+        sonar: 'sonar-runner:2.4'
     ]
 }
 
